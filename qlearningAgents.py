@@ -86,7 +86,7 @@ class QLearningAgent(ReinforcementAgent):
         actionList = []
         for action in legalActions:
             actionValueCheck = self.qValues[state,action]
-            if qValue == actionValue:
+            if qValue == actionValueCheck:
                 actionList.append(action)
         return random.choice(actionList)
 
