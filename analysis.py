@@ -26,36 +26,36 @@ def question2():
 
 def question3a():
     answerDiscount = .3
-    answerNoise = 0.018
-    answerLivingReward = 0
+    answerNoise = 0
+    answerLivingReward = 0.05
     return answerDiscount, answerNoise, answerLivingReward
     # If not possible, return 'NOT POSSIBLE'
     livingReward
 def question3b():
-    answerDiscount = 0.3
-    answerNoise = 0.5
-    answerLivingReward = None
+    answerDiscount = 0.4
+    answerNoise = 0.36
+    answerLivingReward = .05
     return answerDiscount, answerNoise, answerLivingReward
     # If not possible, return 'NOT POSSIBLE'
 
 def question3c():
-    answerDiscount = None
-    answerNoise = None
-    answerLivingReward = None
+    answerDiscount = .4
+    answerNoise = 0
+    answerLivingReward = .05
     return answerDiscount, answerNoise, answerLivingReward
     # If not possible, return 'NOT POSSIBLE'
 
 def question3d():
-    answerDiscount = None
-    answerNoise = None
-    answerLivingReward = None
+    answerDiscount = .99
+    answerNoise = .2
+    answerLivingReward = 0
     return answerDiscount, answerNoise, answerLivingReward
     # If not possible, return 'NOT POSSIBLE'
 
 def question3e():
-    answerDiscount = None
-    answerNoise = None
-    answerLivingReward = None
+    answerDiscount = 0
+    answerNoise = 0
+    answerLivingReward = 100
     return answerDiscount, answerNoise, answerLivingReward
     # If not possible, return 'NOT POSSIBLE'
 
