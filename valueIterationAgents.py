@@ -61,7 +61,6 @@ class ValueIterationAgent(ValueEstimationAgent):
 
     def runValueIteration(self):
         # Write value iteration code here
-        print(self.iterations)
         states = self.mdp.getStates()
         for i in range(self.iterations):
             valuesPrev = self.values.copy()
